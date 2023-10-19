@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+    background-color: black;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container, .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px; 
+    color: #232222;
+}
+
+.form-container {
+    max-width: 750px;
+    width: 100%;
+    background-color: #bababa;
+    border-radius: 5px;
+}
+
+.outline-form {
+    background-color: white;
+    padding: 15px; 
+    border: 1px solid rgb(112, 111, 111);
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-bars {
+    display: flex;
+    align-items: center;
+}
+
+.sign-bar1 {
+    border: 1px solid #c5c0c0;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid #12a75f;
+    border-radius: 5px;
+}
+
+.sign-bar2 {
+    border-radius: 5px;
+    background-color: #c9c9c9;
+    width: 100%;
+    text-align: center;
+    color: #333333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.field {
+    max-width: 400px;
+    width: 100%;
+    height: 45px; 
+    border-radius: 5px;
+    padding: 0 25px; 
+    font-size: 16px; 
+}
+
+.forgotpass {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.signin {
+    width: 70%;
+    background-color: #0f9d58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px; 
+    padding: 12px 0; 
+}
+
+.content-divider {
+    display: flex;
+    width: 70%;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.socials button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; 
+    padding: 12px 0; 
+    width: 200px;
+    cursor: pointer;
+}
+
+form p {
+    color: green;
+    font-weight: bold;
+}
